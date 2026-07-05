@@ -1,0 +1,27 @@
+{
+   "manifest_version": 3,
+   "author": "Kevin King",
+   "name": "Ears: Bass Boost, EQ Any Audio!",
+   "short_name": "Ears",
+   "version": "1.3.12",
+   "description": "EQ any audio you find on the web, live! Crank the bass, dim the highs, up the vocals: all with Ears!",
+   "icons": {
+      "16": "ears16.png",
+      "32": "ears32.png",
+      "48": "ears48.png",
+      "64": "ears64.png",
+      "128": "ears128.png"
+   },
+   "action": {
+      "default_icon": "ears128.png",
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "bg.js"
+   },
+   "permissions": [ "activeTab", "tabCapture", "tabs", "storage", "offscreen", "downloads" ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmvkDsI5IyGri+oOn/B7yE9zt0hrZtX3SbHuvZfRjNQx0tDuqVPkHPIbq3NtWuHv5LqY5FFQIjFwvbVSOcx3YJhaE1Xz+GUKZvNFGNsClmXISP2h9aBfwF/aQW/f8rVk5/yKFqYW20fVykzKFicxWQSychXsBZKIkIUa5KHvWE/0KYoprfokW5fG9l0P5WmDApypNssJJ2NxrW3ROYFjzMDWJPjaZg/GDH5MLayQ1vNhzFIF5IFDYNktP1jZQq/OVQ6TFS6Syi4MxLVS+aaL0sIHBG2Luu2wRT9Thid8nMTQOLIJnJFgpO1bDybM0k8Iod08HlwdFJMDuZ26/ieaujQIDAQAB"
+}
